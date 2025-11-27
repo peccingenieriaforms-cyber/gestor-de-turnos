@@ -1,4 +1,4 @@
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 import { Task, TaskStatus, User } from "../types";
 
 export const generateShiftReport = async (
